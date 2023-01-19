@@ -15,6 +15,7 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 | U101, U201 | TBD62003APG | Transistor Array | 2 |
 | U301 | Arduino ProMicro | microcontroller for cab LEDs | 1 |
 | <> | Arduino Leonardo | microcontroller for controls/button LEDs/card reader/keypad | 2 |
+| <> | BOB-12009 | SparkFun Logic Level Converter - Bi-Directional | 2 |
 | PS1 | IRM-60-5 PSU | power supply for cab LEDs | 1 |
 | PS2 | IRM-20-12 PSU | power supply for button LEDs | 1 |
 | C301-C308 | 1000 uF D10.0mm | Radial electrolytic capacitors (I used 25V) | 8 |
@@ -24,7 +25,15 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 | R301-R308 | 330 Ohm 0805 | SMD resistors | 8 |
 | J5-J6 | USB1035-GF-P-0-B-B	| USB-A ports | 2 |
 | J1-J4 | USB4085-GF-A | USB-C ports | 4 |
-| J101, J201 | 
+| CN101, CN201 | JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical	| 6 pin connector header for buttons | 2 |
+| CN102, CN202 | JST_EH_B7B-EH-A_1x07_P2.50mm_Vertical	| 7 pin connector header for button LEDs | 2 |
+| CN104, CN204 | JST_EH_B11B-EH-A_1x11_P2.50mm_Vertical	| 11 pin connector header for PN5180 card reader | 2 |
+| CN105, CN205 | JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical	| 8 pin connector header for keypad | 2 |
+| CN301-CN308 | JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical	| 3 pin connector header for cab LEDs | 8 |
+| CN111-CN112, CN211-CN212, J101, J201 | PinHeader_1x06_P2.54mm_Vertical	| 6 pin header for logic level converter, Leonardo | 6 |
+| J102-J103, J202-J203 | PinHeader_1x08_P2.54mm_Vertical	| 8 pin header for Leonardo | 4 |
+| J104, J204 | PinHeader_1x10_P2.54mm_Vertical	| 10 pin header for Leonardo | 2 |
+| J105, J205 | PinSocket_2x03_P2.54mm_Vertical	| 3 pin socket for Leonardo | 2 |
 
 ## Keymani Components
 
