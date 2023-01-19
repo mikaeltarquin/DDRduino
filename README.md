@@ -7,7 +7,19 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 
 [WS2812B Addressible LED arduino code](https://github.com/Moldypie/hid-lights-with-individually-addressable-strips-and-a-keypad) by Moldypie
 
-# BOM
+# Parts List
+## Top Level Components
+
+| Component | Description |
+| --- | --- |
+| DDRduino Assembly | Integrated board combining microcontrollers, USB interfaces, JST connector headers for Buttons/LEDs/card reader/keypad, and lighting power supplies. |
+| Keymani Assembly | A 12-key matrix numpad for entering your PIN. |
+| 8x IST 406 White, 2x IST 406 Green [IST MALL link](https://www.istmall.co.kr/us/goods/goods_view.php?goodsNo=1009992263)| IST-406 White buttons for the direction buttons. 2x IST-406 Green buttons for the Start buttons. | 
+| 2x PN5180 [AliExpress link](https://www.aliexpress.com/w/wholesale-pn5180.html) | NFC card readers to read your IC cards. |
+| Control Panel | Up to you! I designed a very janky panel that I've been printing in pieces, you can do better! |
+
+![DDRduino Control Panel Build](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_1.jpg)
+
 ## DDRduino Components
 
 | Component ID | Component | Description |Quantity |
@@ -45,6 +57,7 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 | SW1-SW12 | PG1353 | Kailh Choc V2 keyboard switch | 12 |
 | D1-D12 | 1N4148| D_DO-35_SOD27_P7.62mm_Horizontal	diodes for matrix keypad | 12 |
 | CN1 | JST_EH_S8B-EH_1x08_P2.50mm_Horizontal	| 8 pin connector header for external connection (DDRduino) | 1 |
+| <> | Keycaps! | I used 2x ["DSA PBT Blue and White Keycaps Set 145 Keys"](https://www.aliexpress.us/item/3256802412526867.html) keycap sets I found on sale at KBDfans, but it seems to be out of stock/discontinued. The main thing for me was finding a set with a 00 key. | 2 |
 
 There are also provisions for LEDs, but I don't use them since they interfere with my switches and are blocked by my keycaps:
 | Component ID | Component | Description |Quantity |
