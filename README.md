@@ -2,6 +2,10 @@
 Custom PCB for handling DDR control panel, keypad, card reader, and LED controls.
 ![DDRduino Assembly](https://github.com/mikaeltarquin/DDRduino/blob/main/images/ddrduino_assy.png)
 
+# Keymani
+A side project for DDRduino, but theoretically compatible with regular setups as well! This is a 12 button matrix numpad, and connects to the rest of the system with an 8 pin JST connector.
+![Keymani PCB](https://github.com/mikaeltarquin/DDRduino/blob/main/images/keymani_top_render.png)
+
 # Acknowledgements
 [PN5180-cardio Navigation LPCD](https://github.com/CrazyRedMachine/PN5180-cardio/tree/navigation-lpcd) by CrazyRedMachine 
 
@@ -67,7 +71,7 @@ There are also provisions for LEDs, but I don't use them since they interfere wi
 | D13-D24 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | SK6812MINI LEDs | 12 |
 | CN2 | JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical | 3 pin connector header for LED control | 1 |
 
-![Keymani PCB](https://github.com/mikaeltarquin/DDRduino/blob/main/images/keymani_top_render.png)
+![Keymani PCB](https://github.com/mikaeltarquin/DDRduino/blob/main/images/keymani_bottom_render.png)
 
 # Arduino Setup
 1. Download the [Navigation LPCD branch](https://github.com/CrazyRedMachine/PN5180-cardio/tree/navigation-lpcd) of CrazyRedMachine's PN5180-cardio code.
