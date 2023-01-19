@@ -1,3 +1,6 @@
+![DDRduino Control Panel Build](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_1.jpg)
+![DDRduino Control Panel wiring gore](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_2.jpg)
+
 # DDRduino
 Custom PCB for handling DDR control panel, keypad, card reader, and LED controls.
 ![DDRduino Assembly](https://github.com/mikaeltarquin/DDRduino/blob/main/images/ddrduino_assy.png)
@@ -21,9 +24,6 @@ A side project for DDRduino, but theoretically compatible with regular setups as
 | 8x IST 406 White<br><br>2x IST 406 Green | IST-406 White buttons for the direction buttons.<br><br>2x IST-406 Green buttons for the Start buttons.<br><br>[IST MALL link](https://www.istmall.co.kr/us/goods/goods_view.php?goodsNo=1009992263) | 
 | 2x PN5180 | NFC card readers to read your IC cards.<br><br>[AliExpress link](https://www.aliexpress.com/w/wholesale-pn5180.html) |
 | Control Panel | Up to you! I designed a very janky panel that I've been printing in pieces, you can do better! |
-
-![DDRduino Control Panel Build](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_1.jpg)
-![DDRduino Control Panel wiring gore](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_2.jpg)
 
 ## DDRduino Components
 
