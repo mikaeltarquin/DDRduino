@@ -1,5 +1,6 @@
 # DDRduino
 Custom PCB for handling DDR control panel, keypad, card reader, and LED controls.
+![DDRduino Assembly](https://github.com/mikaeltarquin/DDRduino/blob/main/images/ddrduino_assy.png)
 
 # Acknowledgements
 [PN5180-cardio Navigation LPCD](https://github.com/CrazyRedMachine/PN5180-cardio/tree/navigation-lpcd) by CrazyRedMachine 
@@ -35,7 +36,10 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 | J104, J204 | PinHeader_1x10_P2.54mm_Vertical	| 10 pin header for Leonardo | 2 |
 | J105, J205 | PinSocket_2x03_P2.54mm_Vertical	| 3 pin socket for Leonardo | 2 |
 
+![DDRduino PCB](https://github.com/mikaeltarquin/DDRduino/blob/main/images/ddrduino_top_render.png)
+
 ## Keymani Components
+
 | Component ID | Component | Description |Quantity |
 | --- | --- | --- | --- |
 | SW1-SW12 | PG1353 | Kailh Choc V2 keyboard switch | 12 |
@@ -48,6 +52,8 @@ There are also provisions for LEDs, but I don't use them since they interfere wi
 | C1-C12 | 100 nF 0805 | SMD capacitors | 12 |
 | D13-D24 | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | SK6812MINI LEDs | 12 |
 | CN2 | JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical | 3 pin connector header for LED control | 1 |
+
+![Keymani PCB](https://github.com/mikaeltarquin/DDRduino/blob/main/images/keymani_top_render.png)
 
 # Arduino Setup
 1. Download the [Navigation LPCD branch](https://github.com/CrazyRedMachine/PN5180-cardio/tree/navigation-lpcd) of CrazyRedMachine's PN5180-cardio code.
