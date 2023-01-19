@@ -103,7 +103,7 @@ In additon, player 2 changes:
 #define CUSTOM_VIDPID 2
 ```
 
-## LED code changes:
+## LED Code Changes:
 ```
 #define LED_PIN_1     10
 #define LED_PIN_2     16
