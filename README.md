@@ -18,8 +18,8 @@ A side project for DDRduino, but theoretically compatible with regular setups as
 | --- | --- |
 | DDRduino Assembly | Integrated board combining microcontrollers, USB interfaces, JST connector headers for Buttons/LEDs/card reader/keypad, and lighting power supplies. |
 | Keymani Assembly | A 12-key matrix numpad for entering your PIN. |
-| 8x IST 406 White<br><br>2x IST 406 Green<br><br>[IST MALL link](https://www.istmall.co.kr/us/goods/goods_view.php?goodsNo=1009992263)| IST-406 White buttons for the direction buttons. 2x IST-406 Green buttons for the Start buttons. | 
-| 2x PN5180<br><br>[AliExpress link](https://www.aliexpress.com/w/wholesale-pn5180.html) | NFC card readers to read your IC cards. |
+| 8x IST 406 White<br><br>2x IST 406 Green | IST-406 White buttons for the direction buttons.<br><br>2x IST-406 Green buttons for the Start buttons.<br><br>[IST MALL link](https://www.istmall.co.kr/us/goods/goods_view.php?goodsNo=1009992263) | 
+| 2x PN5180 | NFC card readers to read your IC cards.<br><br>[AliExpress link](https://www.aliexpress.com/w/wholesale-pn5180.html) |
 | Control Panel | Up to you! I designed a very janky panel that I've been printing in pieces, you can do better! |
 
 ![DDRduino Control Panel Build](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_1.jpg)
