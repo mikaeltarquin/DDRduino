@@ -5,7 +5,7 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 # Acknowledgements
 [PN5180-cardio Navigation LPCD](https://github.com/CrazyRedMachine/PN5180-cardio/tree/navigation-lpcd) by CrazyRedMachine 
 
-[WS2812B Addressable LED arduino code](https://github.com/Moldypie/hid-lights-with-individually-addressable-strips-and-a-keypad) by Moldypie
+[WS2812B Addressable LED Arduino Code](https://github.com/Moldypie/hid-lights-with-individually-addressable-strips-and-a-keypad) by Moldypie
 
 # Parts List
 ## Top Level Components
