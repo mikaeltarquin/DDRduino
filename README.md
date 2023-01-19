@@ -19,6 +19,7 @@ Custom PCB for handling DDR control panel, keypad, card reader, and LED controls
 | Control Panel | Up to you! I designed a very janky panel that I've been printing in pieces, you can do better! |
 
 ![DDRduino Control Panel Build](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_1.jpg)
+![DDRduino Control Panel wiring gore](https://github.com/mikaeltarquin/DDRduino/blob/main/images/DDRduino_panel_assy_2.jpg)
 
 ## DDRduino Components
 
